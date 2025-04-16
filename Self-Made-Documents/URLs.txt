@@ -1,0 +1,4 @@
+1. Product-Service -->http://localhost:8080/api/products
+2. Url of Eureka service-->http://localhost:8761/
+3. Order service -->http://localhost:8762/api/orders
+4. Payment Service--->http://localhost:8763/api/payments

@@ -1,0 +1,9 @@
+In this project what technology we are going to use 
+✅ Spring Boot – Microservices
+✅ Spring Cloud Eureka – Service Discovery
+✅ Spring Cloud Feign Client – Inter-service communication
+✅ Spring Cloud Gateway – API Gateway
+✅ Spring Security (JWT) – Secure APIs
+✅ Kafka (Optional) – Event-driven architecture (order updates)
+✅ MySQL – Database for all services
+✅ Docker & Kubernetes (Optional) – For containerization

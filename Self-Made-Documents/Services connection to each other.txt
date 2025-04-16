@@ -1,0 +1,16 @@
+Service-to-Service Communication Flow (Typical E-Commerce)
+Here's the most logical service call pattern:
+
+1. 🛒 Order Service
+Calls Product Service → to get product details.
+
+Calls Inventory Service → to check stock / reduce stock.
+
+Calls Payment Service → to initiate payment.
+
+2. 📦 Inventory Service
+No outgoing calls (only receives calls from Order Service).
+
+3. 💳 Payment Service
+May call Order Service → to update order status (optional, or done via Kafka if async).
+
